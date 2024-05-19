@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Form</title>
+   
+</head>
+<body>
+    <h1>Assignment Form</h1>
+    <form action="submit_form.php" method="post">
+        <fieldset>
+            <legend><h4>Personal Details</h4></legend>
+            <label for="firstName"> First Name:</label>
+            <input type="text" id="firstName" name="name" required>
+            <br>
+            <label for="middleName">Middle Name:</label>
+            <input type="text" id="middleName" name="name" required>
+            <br>
+            <label for="lastName"> Last Name:</label>
+            <input type="text" id="lastName" name="name" required>
+            <br>
+
+            <br>
+            <label for="Course">Course:</label>
+            <select id="Course" name="Course" required>
+                <option value="highschool">High School</option>
+                <option value="bachelors">Bachelors</option>
+                <option value="masters">Masters</option>
+                <option value="phd">PhD</option>
+    
+            </select>
+            <br>
+
+            <br>
+      
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+
+            <br>
+            <label for="gender">Gender:</label>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        
+    
+
+            <br>
+       
+         
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other">
+   
+            <br>
+
+            <br>
+
+            <label for="phone">Phone Number:</label>
+            <input style="width: 30px;"  type="tel" id="phone" name="phone" placeholder="+91" width="10px" disabled >
+            <input type="tel" id="phone" name="phone" required>
+       
+
+            <br>
+
+            <label for="address">Address:</label>
+
+            <br>
+            <textarea id="address" name="address" rows="4" required></textarea>
+       
+            <br>
+            <br>
+            <br>
+      
+           
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+         <br>
+         <br>
+         <br>
+     
+        <label for="checkbox"><input type="checkbox" name="checkbox" id="check"> Agree to term and Condition</label>
+
+        <br>
+        <br>
+      <label>Choose file </label>
+      <input type="file" name="file" id="file">
+      <br> <br>
+      <label>Choose Color </label>
+      <input type="Color" name="Color" id="Color">
+      <br>
+      <br>
+        <br>
+        <div >
+
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+      
+        </fieldset>
+
+    </form>
+</body>
+</html>
